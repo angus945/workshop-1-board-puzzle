@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class TilesSetting : MonoBehaviour
 {
-    public bool _isFill;
+    public bool isFill;
 
     private void Awake()
     {
         SetData();
     }
 
-    void SetData()
+    public void SetData()
     {
-        _isFill = false;
+        isFill = false;
     }
 }

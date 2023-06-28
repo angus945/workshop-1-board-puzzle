@@ -12,4 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d79b8ffdfc9e62488bdf346a187923f, type: 3}
   m_Name: Stage-2-Data
   m_EditorClassIdentifier: 
-  layout: []
+  layout:
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}
+  - _position: {x: 0, y: 0}

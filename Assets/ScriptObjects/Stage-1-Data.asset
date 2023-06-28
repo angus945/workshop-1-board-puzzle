@@ -14,16 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layout:
   - _position: {x: 0, y: 0}
-  - _position: {x: 1, y: 1}
-  - _position: {x: 2, y: 2}
-  - _position: {x: 3, y: 3}
-  - _position: {x: 4, y: 4}
-  - _position: {x: 5, y: 5}
   - _position: {x: 1, y: 0}
-  - _position: {x: -1, y: 0}
+  - _position: {x: 2, y: 0}
+  - _position: {x: 1, y: 1}
   - _position: {x: 2, y: 1}
-  - _position: {x: 3, y: 1}
-  - _position: {x: -1, y: 2}
+  - _position: {x: -1, y: 1}
+  - _position: {x: -2, y: 1}
+  - _position: {x: -3, y: 1}
+  - _position: {x: 0, y: 1}
   - _position: {x: 0, y: 2}
   - _position: {x: 1, y: 2}
-  - _position: {x: -2, y: 2}
+  - _position: {x: 2, y: 2}
+  - _position: {x: 3, y: 2}

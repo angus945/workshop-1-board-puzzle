@@ -8,16 +8,33 @@ public class GridMapManager : MonoBehaviour
 
     public void ShowWhichIsNotFill()
     {
-        for (int i = 0; i < _gridMapCreate._tilemap.Count; i++)
+        List<GameObject> _gridMapCreateTileMap = _gridMapCreate._tilemap;
+
+
+        for (int i = 0; i < _gridMapCreateTileMap.Count; i++)
         {
-            if (_gridMapCreate._tilemap[i].GetComponent<TilesSetting>()._isFill == false)
+            SpriteRenderer _tileMapGetColor = _gridMapCreateTileMap[i].GetComponent<SpriteRenderer>();
+            TilesSetting _getGridMapLength=_gridMapCreateTileMap[i].GetComponent<TilesSetting>();
+
+            if (_getGridMapLength.isFill == false)
             {
-                _gridMapCreate._tilemap[i].GetComponent<SpriteRenderer>().color = Color.green;
+                _tileMapGetColor.color = Color.green;
             }
             else
             {
-                _gridMapCreate._tilemap[i].GetComponent<SpriteRenderer>().color = Color.red;
+                _tileMapGetColor.color = Color.red;
             }
+        }
+    }
+    public void CloseShowingWhichIsNotFill()
+    {
+        List<GameObject> _gridMapCreateTileMap = _gridMapCreate._tilemap;
+
+        for (int i = 0; i < _gridMapCreateTileMap.Count; i++)
+        {
+            SpriteRenderer _tileMapGetColor=_gridMapCreateTileMap[i].GetComponent<SpriteRenderer>();
+
+            _tileMapGetColor.color = Color.black;   
         }
     }
 }
