@@ -27,6 +27,7 @@ public class TIleMapManger : MonoBehaviour
     }
     public void GameEnd()
     {
+        ReloadAndWin.instance.Win();
         Debug.Log("GameOver");
     }
 }
